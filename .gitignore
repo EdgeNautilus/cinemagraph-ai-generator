@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / compiled
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Cinemagraph runtime artifacts
+.cinemagraph_cache/
+*.cmgx
+*.loopcache
+renders/
+frames_out/
+masks_out/
+exports/
+
+# Model weights pulled at runtime (never commit)
+models/weights/
+*.onnx.partial
+*.safetensors
+
+# IDE / tooling
+.idea/
+.vscode/
+*.swp
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Local config with device paths
+config/local.toml
+*.local.yaml
