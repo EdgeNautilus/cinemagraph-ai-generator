@@ -1,0 +1,1 @@
+"""UI/CLI handlers bridging user actions to the pipeline."""
