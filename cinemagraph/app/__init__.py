@@ -1,0 +1,1 @@
+"""Application bootstrap: GUI, CLI, and shared entry helpers."""
