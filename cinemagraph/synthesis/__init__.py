@@ -1,0 +1,1 @@
+"""Loop synthesis layer: warp, blend, and seam correction."""
